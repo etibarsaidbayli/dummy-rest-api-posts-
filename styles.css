@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .h-full {
+    height: 100vh;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-form {
+    width: 300px;
+  }
+  
+  .login-form button {
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .login-form .group {
+    margin-bottom: 10px;
+  }
+  
+  .login-form .group input {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    padding: 6px;
+  }
+  
+  .login-form .group label,
+  .login-form .group input {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  
+  .loading {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .error {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: red;
+  }
+  
+  .post-list {
+    margin-top: 20px;
+  }
+  
+  .post-list .post h4 {
+    margin: 0;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .post-list .post {
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .post-list .post .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .load-more {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .load-more button {
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    padding: 0 20px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 20px;
+  }
+  
+  .header .user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .user img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .header button {
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .comment {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment .user {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
