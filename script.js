@@ -1,5 +1,4 @@
 const postList = document.querySelector(".post-list");
-
 const loadBtn = document.getElementById("loadBtn");
 
 let limit = 5;
@@ -21,7 +20,6 @@ function getFetchPost() {
       postList.insertAdjacentHTML("beforebegin", html);
     })
     .finally(enabledButton());
-  
 }
 
 function enabledButton() {
@@ -33,7 +31,6 @@ function disableButton() {
   loadBtn.disabled = true;
 
   loadBtn.textContent = "LOADING..";
-
 }
 
 getFetchPost();
@@ -65,7 +62,3 @@ function addMore() {
     getFetchPost(currentSkip);
   }
 }
-
-
-
-
